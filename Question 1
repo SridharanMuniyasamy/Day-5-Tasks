@@ -1,0 +1,17 @@
+{
+  "name": "Sridharan M",
+  "title": "Resume",
+  "contact": {
+    "email": "sridharanrx546@gmail.com"
+  },
+  "skills": [
+    "AutoCAD",
+    "CATIA",
+    "SolidWorks"
+  ],
+  "education": [
+    {
+      "degree": "Diploma in Mechanical Engineering"
+    }
+  ]
+}
