@@ -1,0 +1,9 @@
+// Using forEach for skills
+resumeData.skills.forEach(skill => {
+  console.log(`Skill: ${skill}`);
+});
+
+// forEach doesn't work directly with objects, so we'll use Object.entries
+Object.entries(resumeData.education[0]).forEach(([key, value]) => {
+  console.log(`${key}: ${value}`);
+});
