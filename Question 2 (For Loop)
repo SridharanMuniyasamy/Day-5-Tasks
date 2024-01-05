@@ -1,0 +1,18 @@
+const resumeData = {
+  "name": "Sridharan M",
+  "title": "Resume",
+  "contact": {
+    "email": "sridharanrx546@gmail.com"
+  },
+  "skills": ["AutoCAD", "CATIA", "SolidWorks"],
+  "education": [
+    {
+      "degree": "Diploma in Mechanical Engineering"
+    }
+  ]
+};
+
+// Using a traditional for loop
+for (let key in resumeData) {
+  console.log(`${key}: ${resumeData[key]}`);
+}
