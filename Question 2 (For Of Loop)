@@ -1,0 +1,9 @@
+// Using for...of loop (applicable to arrays)
+for (let skill of resumeData.skills) {
+  console.log(`Skill: ${skill}`);
+}
+
+// Using for...of loop for education
+for (let degree of resumeData.education) {
+  console.log(`Degree: ${degree.degree}`);
+}
